@@ -1,0 +1,95 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-06T09:32:04.443Z",
+        "line": 5,
+        "name": "Add to cart",
+        "description": "",
+        "id": "add-to-cart-validation;add-to-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 25848459900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Open the TestMe Homepage",
+            "match": {
+              "location": "stu4.open_the_TestMe_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 148146500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Search \"head\" in the find details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"head\"",
+                  "offset": 7
+                }
+              ],
+              "location": "stu4.search_in_the_find_details(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 513118300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click find Details",
+            "match": {
+              "location": "stu4.click_find_Details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4275467000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click the Add to Cart icon",
+            "match": {
+              "location": "stu4.click_the_Add_to_Cart_icon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12196200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User go to the login page",
+            "match": {
+              "location": "stu4.user_go_to_the_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Add to cart validation",
+    "description": "",
+    "id": "add-to-cart-validation",
+    "keyword": "Feature",
+    "uri": "classpath:study4/cart.feature",
+    "tags": []
+  }
+]
